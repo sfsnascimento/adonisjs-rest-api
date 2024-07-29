@@ -1,6 +1,6 @@
 # AdonisJS Versão 6 REST API
 
-Esse projeto é uma REST API feito com AdonisJS Versão 6. A API utiliza o MySQL como banco de dados.
+Esse projeto é uma REST API feito com AdonisJS Versão 6. A API utiliza o MySQL como banco de dados. Trata-se de um sistema que permite cadastrar usuários externos. Ao realizarem login, estes usuários poderão registrar clientes, produtos e vendas.
 
 
 
