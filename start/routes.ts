@@ -4,6 +4,7 @@ const UsersController = () => import('#controllers/users_controller')
 const AuthController = () => import('#controllers/auth_controller')
 const ProductsController = () => import('#controllers/products_controller')
 const ClientsController = () => import('#controllers/clients_controller')
+const SalesController = () => import('#controllers/sales_controller')
 
 // Rotas usuario
 router.post('signup', [UsersController, 'signup'])
@@ -21,3 +22,6 @@ router.get('clients', [ClientsController, 'index'])
 router.get('client/:id/:year?/:month?', [ClientsController, 'show'])
 router.post('client', [ClientsController, 'store'])
 router.put('client/:id', [ClientsController, 'update'])
+
+// Rota venda
+router.post('sale', [SalesController, 'store'])
