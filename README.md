@@ -41,7 +41,7 @@ Siga os passos para clonar o projeto e rodar na sua máquina local:
     PORT=3333
     HOST=localhost
     LOG_LEVEL=info
-    APP_KEY=
+    APP_KEY=X0S3JaAsTb8FbLFjuA1jphGagB56x4-e
     NODE_ENV=development
     DB_HOST=127.0.0.1
     DB_PORT=3306
